@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(28, 28, 54);
+}
+.header{
+    display:flex;
+    align-items: center;
+    height: 10vh;
+}
+.logo samp{
+    color: orangered;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.logo{
+    width: 20%;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: center ; */
+    padding-left: 50%;
+}
+
+.header .nav{
+    width: 80%;
+    padding-right: 300px;
+}
+.header .nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 30PX;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    transition: 0.3s;
+}
+.header .nav ul li :hover{
+    color: orangered;
+
+}
+.nav ul li a samp{
+    color: orangered;
+}
+
+.content{
+    height: 78vh;
+    display: flex;
+}
+.content .left{
+    width: 53%;
+    padding-top: 130px ;
+    padding-left: 10px;
+
+}
+.left .propertys{
+    height: 70%;
+    margin-left: 14%;
+}
+.propertys ul{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    list-style-type: none;
+}
+.propertys ul li :hover{
+    color: orangered;
+    transition: 0.3s;
+}
+
+.propertys h1{
+    font-size: 60px;
+}
+.propertys p{
+    font-size: 19px;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.propertys .btns .btn1{
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 8px 20px 8px 20px;
+    border-color: orangered;
+    background-color: rgb(13, 13, 68) ;
+}
+
+.propertys .btns a{
+    font-size: 45px;
+    border-radius: 70%;
+    
+}
+
+.content .right{
+    width: 47%;
+    padding-top: 10px ;
+    padding-left: 50px;
+    margin-top: 15px;
+}
+.content .right img{
+    height: 520px;
+    width: 480px;
+}
+
+
+.footer{
+    height: 10vh;
+}
+.footer h4{
+    text-align: center;
+    color: orangered;
+}
+.footer h2{
+    text-align: center;
+}
